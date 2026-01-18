@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyam Manna</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="nav-section">
+            <h3>NAVIGATION</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+        </div>
+        
+        <div class="nav-section">
+            <h3>FIND ME ON</h3>
+            <a href="tel:+919641537295">Phone</a>
+            <a href="mailto:priyammannaworks@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/priyammanna" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/priyam-that" target="_blank" rel="noopener">GitHub</a>
+        </div>
+
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+            <span class="theme-icon">◐</span>
+        </button>
+    </nav>
+
+    <main class="content">
+        <section id="home">
+            <h1>Priyam Manna</h1>
+            
+            <div class="contact-info">
+                <span>+919641537295</span>
+                <span>|</span>
+                <span>priyammannaworks@gmail.com</span>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/priyammanna/" target="_blank" rel="noopener">LinkedIn/priyammanna</a>
+                <span>|</span>
+                <a href="https://github.com/priyam-that/" target="_blank" rel="noopener">Github/priyam-that</a>
+            </div>
+
+            <h2 id="about">ABOUT</h2>
+            
+            <div class="about-section">
+                <div class="about-photo">
+                    <img src="/Portfolio.jpg" alt="Priyam Manna" />
+                </div>
+                <div class="about-text">
+                    <p>I'm a Software Engineer specializing in Python backend development, web scraping, and machine learning. I build reliable, production-ready systems with clean APIs and strong contracts.</p>
+                    
+                    <p>My work focuses on creating tools that solve real problems: from structured web scraping services that handle JavaScript-heavy sites, to ML-powered resume screening systems, to full-stack applications with real-time capabilities.</p>
+                    
+                    <p>I believe in pragmatic engineering—writing code that's readable, maintainable, and ships fast. I'm passionate about data analysis, natural language processing, and building systems that scale.</p>
+                </div>
+            </div>
+
+            <h2 id="projects">PROJECTS</h2>
+            
+            <div class="project">
+                <div class="project-header">
+                    <h3>Structured Web Scraping Service</h3>
+                    <a href="https://github.com/priyam-that/web-scraper.git" target="_blank" rel="noopener">GitHub</a>
+                </div>
+                <p class="tech-stack">Playwright, Pydantic, Python, FastAPI, and BeautifulSoup</p>
+                <ul>
+                    <li>Created a FastAPI-based backend service for structured web scraping using Playwright and a static-first approach with a JavaScript rendering fallback.</li>
+                    <li>Interaction-aware scraping (scrolling, link clicks, and pagination tracking) was used to extract content from modern, JavaScript-heavy websites.</li>
+                    <li>Developed a dependable content parsing pipeline that divides DOM elements into semantic sections, applies noise filtering, and safely truncates raw HTML to prevent oversized responses.</li>
+                    <li>Clear contracts for metadata, sections, interactions, and error handling are made possible by well-defined Pydantic schemas for consistent API responses.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>AI System for Skill Extraction and Resume Screening</h3>
+                    <a href="https://github.com/priyam-that/resume-screening   " target="_blank" rel="noopener">GitHub</a>
+                </div>
+                <p class="tech-stack">Fuzzy Matching, Python, Scikit-Learn, SpaCy, TF-IDF, Logistic Regression, Streamlit, and Joblib</p>
+                <ul>
+                    <li>Developed a resume classification system that uses class-weighted logistic regression and TF-IDF features to predict over 100 job roles.</li>
+                    <li>Created a natural language processing skill extractor that uses regular expressions, SpaCy noun phrases, and cosine distance-based semantic similarity to identify over three hundred technical skills.</li>
+                    <li>Used a hybrid machine learning and rule-driven pipeline to map misspellings and variations, such as "reactjs" converted to "react," using fuzzy skill normalization.</li>
+                    <li>Developed a Streamlit web interface, a command-line tool, and a Python API for real-time resume analysis with lightweight model deployment using joblib.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Deepfake AI Tracker—Full-Stack Fake News Detection App</h3>
+                    <a href="https://github.com/priyam-that/deepfake-tracker" target="_blank" rel="noopener">GitHub</a>
+                </div>
+                <p class="tech-stack">Flask, NLP, BeautifulSoup, textblob, numpy</p>
+                <ul>
+                    <li>Created a modular fake-news evaluation system combining NLP pipelines, sentiment analysis, and multi-factor credibility scoring.</li>
+                    <li>Developed real-time UI components with React and integrated WebSockets for real-time live score updates.</li>
+                    <li>Designed a distributed scraping and analysis pipeline using BeautifulSoup for batch URL processing and data retrieval.</li>
+                    <li>Deployed in Netlify using CI/CD, ensuring fast release cycles and zero-downtime updates.</li>
+                </ul>
+            </div>
+
+            <h2 id="skills">TECHNICAL SKILLS</h2>
+            <p><strong>Languages:</strong> Python, C, SQL</p>
+            <p><strong>Tech Stacks:</strong> FastAPI, Flask, APIs, SQLite, PostgreSQL, CI/CD</p>
+            <p><strong>Data Analysis:</strong> NumPy, Pandas, Matplotlib, Scikit-Learn</p>
+            <p><strong>Tools:</strong> Git, GitHub, Docker, Jupyter Notebook, Hugging Face</p>
+
+            <h2 id="education">EDUCATION</h2>
+            <div class="education">
+                <div class="education-header">
+                    <div>
+                        <h3>Budge Budge Institute of Technology</h3>
+                        <p>Bachelor of Technology in Computer Science and Engineering</p>
+                    </div>
+                    <p>2021–2025</p>
+                </div>
+                <p>CGPA: 8.11/10</p>
+                <p>DSA, OOP, Operating Systems, DBMS, Computer Networks, Machine Learning, AI, Cloud Computing</p>
+            </div>
+
+            <h2 id="certifications">CERTIFICATIONS</h2>
+            <ul>
+                <li>Machine Learning Specialization – DeepLearning.AI, Stanford University (Andrew Ng)<br>
+                    Supervised Learning, Advanced Algorithms, Unsupervised Learning, Recommender Systems</li>
+                <li>Python for Data Science, AI Development – IBM</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
