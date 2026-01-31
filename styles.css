@@ -26,7 +26,7 @@
 }
 
 body {
-    font-family: "Computer Modern Serif", "Latin Modern Roman", "CMU Serif", serif;
+    font-family: "Playfair Display", serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
